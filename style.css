@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+}
+
+body {
+  background: #EFEFEF;
+
+  font-family: 'Staatliches';
+
+  padding-bottom: 150px;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 436px;
+
+  position: absolute;
+
+  background-color: #535971;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+header {
+  margin-top: 100px;
+  width: 350px;
+  color: #FFF;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: 400;
+
+  margin-bottom: 10px;
+}
+
+header p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+
+  margin-bottom: 60px;
+}
+
+form {
+  width: 750px;
+  height: fit-content;
+
+  padding: 64px 64px 0 64px;
+
+  background-color: #FFF;
+  color: #535971;
+
+  border-radius: 15px 15px 0 0;
+}
+
+fieldset {
+  border: 0;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  margin-bottom: 30px;
+}
+
+legend {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 10px;
+}
+
+.student-name {
+  display: flex;
+  gap: 20px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-wrapper label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.input-wrapper label span {
+  font-size: 12px;
+  color: #8f8e8e;
+}
+
+.input-wrapper label span:hover {
+  color: #535971;
+}
+
+.input-wrapper input {
+  height: 55px;
+  background-color: #EFEFEF;
+
+  border: 1px solid #e1e1e4;
+  border-radius: 8px;
+
+  padding: 0 24px;
+
+  font-family: 'Poppins', sans-serif;
+  color: #535971;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.mentorship-date {
+  display: flex;
+  flex-direction: row;
+  gap: 30px
+}
+
+.mentorship-date > div:nth-of-type(1) {
+  width: 100%;
+}
+
+.mentorship-time {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.mentorship-time input {
+  width: 150px;
+}
+
+.button-form {
+  width: 100%;
+  height: 160px;
+
+  background-color: #535971;
+
+  padding: 50px 70px;
+
+  border-radius: 0 0 15px 15px;
+}
+
+button {
+  width: 100%;
+  height: 55px;
+
+  font-family: 'Staatliches';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #FFF;
+
+  background-color: #FF5374;
+  border-radius: 15px;
+  border: 0;
+}
+
+button:hover {
+  background-color: #f5345a;
+}
